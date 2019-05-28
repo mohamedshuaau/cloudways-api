@@ -1,0 +1,15 @@
+{
+    "name": "armagedan/cloudways-api",
+    "description": "A Class which contains a collection of Cloudways API for ease of use. All the available API from the Cloudways Docs are included. Happy Coding.",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed Shuaau",
+            "email": "shuaaum@gmail.com"
+        }
+    ]
+}
