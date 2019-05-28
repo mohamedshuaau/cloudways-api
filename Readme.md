@@ -4,6 +4,15 @@ This API is built to make your coding experience less stressful and help you get
 
 **Please bare in mind that some of these functions may not work as intended as Cloudways API is still on beta version. Some of the URL's does not output the expected results.**
 
+# Installation
+	composer require armagedan/cloudways-api
+
+This package requires guzzlehttp to work but it will automatically be installed with this package. If you are still having trouble with guzzle, manually install with:
+
+	composer require guzzlehttp/guzzle
+
+For normal use cases, or if you want to just include the class file separately, feel free for download the file and use it at your convenience.
+
 # Usage
 As mentioned earlier, the class contains all the RESTAPI calls available in Cloudways. To see the available functions, please visit the cloudways official documentation at: [https://developers.cloudways.com/docs/](https://developers.cloudways.com/docs/)
 Here you will find all the information, required parameters and types of values required.
@@ -33,3 +42,5 @@ The result originally comes as an object and we are using the `json_encode` to c
 There are approximately a 140 functions which are available from the Cloudways docs. The function names are respective to the names given in the Cloudways docs.
 
 Please refer to the [Functions List](FunctionsList.md) for all the available functions and required parameters.
+
+Feel free to open any suggestions or issues. Your suggestions and helps are always open. Happy Coding! :)
