@@ -32,4 +32,4 @@ The result originally comes as an object and we are using the `json_encode` to c
 
 There are approximately a 140 functions which are available from the Cloudways docs. The function names are respective to the names given in the Cloudways docs.
 
-Please refer to the Functions List for all the available functions and required parameters.
+Please refer to the [Functions List](FunctionsList.md) for all the available functions and required parameters.
