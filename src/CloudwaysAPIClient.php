@@ -1353,7 +1353,7 @@ Class CloudwaysAPIClient
     }
 
     //Update a CloudwaysBot Integration
-    public function update_cw_bot_intergration($channel_id, $name, $channel, $events, $is_active, $to, $url)
+    public function update_cw_bot_intergration($channel_id, $name, $channel, $events, $is_active, $to, $link)
     {
         try
         {
@@ -1366,7 +1366,7 @@ Class CloudwaysAPIClient
                 'events' => $events,
                 'is_active' => $is_active,
                 'to' => $to,
-                'url' => $url
+                'url' => $link
             ];
             $header = array('Authorization'=>'Bearer ' . $this->accessToken);
             $response = $this->client->put($url, array('query' => $data, 'headers' => $header));
