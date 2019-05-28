@@ -14,7 +14,7 @@ Here you will find all the information, required parameters and types of values 
 	$CW_API = new CloudwaysAPIClient('example@gmail.com', '40tYp21iqEvwIVelOc4mZNeZkrRtdO');  
   
 	//Magic
-	$server_settings = $CW_API->get_server_settings('267264');  
+	$server_settings = $CW_API->get_server_settings('12345');  
   
 	//object to json
 	$json = json_encode($server_settings);  
