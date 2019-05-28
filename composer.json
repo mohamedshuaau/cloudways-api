@@ -11,5 +11,10 @@
             "name": "Mohamed Shuaau",
             "email": "shuaaum@gmail.com"
         }
-    ]
+    ],
+	"autoload": {
+        "psr-0": {
+            "Armagedan\\CloudwaysApi": ["src"]
+        }
+    }
 }

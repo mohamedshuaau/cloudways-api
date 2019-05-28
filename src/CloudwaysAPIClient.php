@@ -1,8 +1,7 @@
 <?php
 
-namespace App\Http\Classes;
+namespace Armagedan\CloudwaysApi;
 
-//require 'vendor/autoload.php';
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\Request;
